@@ -1,0 +1,6 @@
+mov cx,4000h
+mov ax,0202h
+mov bx,0202h
+mvl bx
+mov [4000h],ax
+mov [4002],dx
